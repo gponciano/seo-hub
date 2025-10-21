@@ -8,7 +8,7 @@ export default function UserCard() {
     <div className="w-[348px] flex flex-col gap-5 items-center p-5 border border-white border-opacity-10 bg-[#121212] rounded-3xl text-white">
       <div className="size-48">
         <img
-          src="../public/me.webp"
+          src="../public/apple-icon.png"
           alt="André Dev"
           className="rounded-full object-cover w-full h-full"
         />
@@ -33,6 +33,8 @@ export default function UserCard() {
               <Icon />
             </button>
           ))}
+            </div>
+
         </div>
 
         <div className="flex flex-col gap-3 w-full h-[172px]">
@@ -44,6 +46,6 @@ export default function UserCard() {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 }

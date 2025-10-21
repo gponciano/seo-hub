@@ -1,3 +1,4 @@
+import TotalVisits from "../commons/Total-Visits";
 import UserCard from "../commons/User-Card";
 import TextInput from "../ui/Text-Input";
 
@@ -22,7 +23,7 @@ export default function Hero() {
                 <div className="relative">
                     <UserCard />
                     <div className="absolute -bottom-[7%] -right-[45%]">
-                        { /* <TotalVisits /> */ }
+                        <TotalVisits />
                     </div>
                     <div className="absolute top-[20%] -left-[45%] -z-10">
                         {/* <ProjectCard /> */}
