@@ -1,4 +1,4 @@
-import {cn} from "@/app/components/lib/utils";
+import {cn} from "@/app/lib/utils";
 
 export default function TextAerea(props: React.TextareaHTMLAttributes<HTMLTextAreaElement>) {
     return (
