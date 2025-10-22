@@ -1,9 +1,9 @@
-import Header from "@/app/components/landing-page/header";
-import Button from "@/app/components/ui/button";
-import TextInput from "@/app/components/ui/text-input";
+import Header from "@/app/components/landing-page/Header";
+import Button from "@/app/components/ui/Button";
+import TextInput from "@/app/components/ui/Text-Input";
 import { Rocket } from "lucide-react";
 
-export default function CriarPage() {
+export default function CreatePage() {
   return (
     <div>
       <Header />
