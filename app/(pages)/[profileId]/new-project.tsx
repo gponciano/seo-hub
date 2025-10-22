@@ -1,6 +1,6 @@
 "use client";
 
-import Modal from "@/app/components/ui/modal";
+import Modal from "@/app/components/ui/Modal";
 import { Plus } from "lucide-react";
 import { useState } from "react";
 
